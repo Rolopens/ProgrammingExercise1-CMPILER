@@ -15,9 +15,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RyKF9RykgdITJxOCwMMXtxMlBY" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Lib/antlr-4.7.2-complete.jar!/" />
+    <property name="last_opened_file_path" value="C:/Javalib/antlr-4.7.2-complete.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,8 +48,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AntlrParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AntlrParser" />
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="Programming Exercise 1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,7 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AntlrParser" />
+        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -70,5 +73,16 @@
       <updated>1570633790346</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

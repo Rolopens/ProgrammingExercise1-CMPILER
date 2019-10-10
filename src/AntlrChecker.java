@@ -7,19 +7,22 @@ public class AntlrChecker {
 
     public boolean check(CharStream streamInput){
         try {
-            HelloLexer helloLexer = new HelloLexer(streamInput);
-            helloLexer.removeErrorListeners();
-            helloLexer.addErrorListener(ThrowingErrorListener.INSTANCE);
+            RegexLexer regexLexer = new RegexLexer(streamInput);
+            regexLexer.removeErrorListeners();
+            regexLexer.addErrorListener(ThrowingErrorListener.INSTANCE);
 
-            CommonTokenStream commonTokenStream = new CommonTokenStream(helloLexer);
+            CommonTokenStream commonTokenStream = new CommonTokenStream(regexLexer);
 
-            HelloParser helloParser = new HelloParser(commonTokenStream);
-            helloParser.removeErrorListeners();
-            helloParser.addErrorListener(ThrowingErrorListener.INSTANCE);
+            RegexParser regexParser = new RegexParser(commonTokenStream);
+            regexParser.removeErrorListeners();
+            regexParser.addErrorListener(ThrowingErrorListener.INSTANCE);
 
-//            System.out.println(helloParser.r());
-            helloParser.r();
-            return true;
+            RegexParser.SContext s = regexParser.s();
+
+            if(s.children.get(0).toString().equals(streamInput.toString())) {
+                return true;
+            }else
+                return false;
         }catch (ParseCancellationException e){
             return false;
         }
