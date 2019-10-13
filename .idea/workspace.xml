@@ -20,8 +20,12 @@
   </component>
   <component name="ProjectId" id="1RyKF9RykgdITJxOCwMMXtxMlBY" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Javalib/antlr-4.7.2-complete.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="$PROJECT_DIR$/grammar/Regex.g4::/auto-gen" value="true" />
+    <property name="$PROJECT_DIR$/grammar/Regex.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/grammar/Regex.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/grammar/Regex.g4::/output-dir" value="C:\Users\Rolo\Documents\GitHub\ProgrammingExercise1-CMPILER\src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grammar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -79,7 +83,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -14,7 +14,7 @@ public class InputConverter {
         }
         ArrayList<String> inputStrings = new ArrayList<String>();
         while (s.hasNextLine()){
-            inputStrings.add(s.nextLine());
+            inputStrings.add(s.nextLine().replaceAll("\\s+",""));
         }
         s.close();
 

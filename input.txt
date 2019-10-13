@@ -17,3 +17,6 @@ a+Ub*Uc?UE
 1234E
 1234?
 1a*U2*bU3+c+U4+d?
+E Ua
+EUE
+1a *U2* bU3 +c+U 4+d?

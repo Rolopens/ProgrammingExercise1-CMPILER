@@ -1,10 +1,11 @@
 // Define a grammar called Hello
-grammar Regex;
+    grammar Regex;
 s   : B
     | X
     ;
 B   : A R
     | X'U'B R
+    | X'U'X
     ;
 R   : A R
     | 'U' A R
